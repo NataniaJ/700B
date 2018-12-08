@@ -1,0 +1,45 @@
+﻿X,Y,OBJECTID,Corr_Name,Stat_Name,Stat_Loc,StatNamCap,LineColor,Status
+-95.345804968875925,29.739256944377566,1,Southeast,Leeland /Third Ward,Leeland @ Scott,LEELAND / THIRD WARD,Purple,Existing
+-95.340116540865196,29.747561508988351,2,East End,Coffee Plant / Second Ward,Harrisburg @ York,COFFEE PLANT / SECOND WARD,Green,Existing
+-95.329740125924843,29.743678997754408,3,East End,Lockwood / Eastwood,Harrisburg @ Lockwood,LOCKWOOD / EASTWOOD,Green,Existing
+-95.332305477283469,29.69649237474907,4,Southeast,Palm Center Transit Center,Griggs @ Royal Palms,PALM CENTER TRANSIT CENTER,Purple,Existing
+-95.356323128129077,29.755016686146437,5,Southeast,Convention District,Capitol @ Crawford,CONVENTION DISTRICT,Green Purple,Existing
+-95.369517446908546,29.808558921483304,6,North,Lindale Park,Fulton @ Graceland,LINDALE PARK,Red,Existing
+-95.376008083332465,29.832462530670984,7,North,Northline Transit Center / HCC,Fulton @ Deerfield,NORTHLINE TRANSIT CENTER / HCC,Red,Existing
+-95.367685739925776,29.76077594239802,8,Southeast,Theater District,Smith @ Rusk,THEATER DISTRICT,Green Purple,Existing
+-95.361935149142866,29.758385742275465,9,Southeast,Central Station / Capitol,Fannin @ Capitol,CENTRAL STATION / CAPITAL,Green Purple,Existing
+-95.362602990811126,29.7577094791191,10,Southeast,Central Station / Rusk,Fannin @ Rusk,CENTRAL STATION / RUSK,Green Purple,Existing
+-95.357702191130954,29.754746796727694,11,Southeast,Convention District,Rusk @ Crawford,CONVENTION DISTRICT,Green Purple,Existing
+-95.320159957012905,29.741163946845187,12,East End,Altic / Howard Hughes,Harrisburg @ Altic,ALTIC / HOWARD HUGHES,Green,Existing
+-95.370519336263868,29.815792758725632,13,North,Melbourne / North Lindale,Fulton @ Melbourne,MELBOURNE / NORTH LINDALE,Red,Existing
+-95.365806529454389,29.795377970484456,14,North,Moody Park,Fulton @ Catherine / Moody Park,MOODY PARK,Red,Existing
+-95.351368202099167,29.722079194335336,15,Southeast,Robertson Stadium / UH / TSU,Alabama @ Scott,ROBERTSON STADIUM / UH / TSU,Purple,Existing
+-95.34119049669961,29.716122136835388,16,Southeast,UH South / University Oaks,Wheeler @ Calhoun,UH SOUTH / UNIVERSITY OAKS,Purple,Existing
+-95.336509172731212,29.70940474937494,17,Southeast,MacGregor Park / Martin Luther King Jr,M.L.K. @ OST,MACGREGOR PARK / MARTIN LUTHER KING JR,Purple,Existing
+-95.349887021523855,29.728391933025772,18,Southeast,Elgin / Third Ward,Scott @ Elgin,ELGIN / THIRD WARD,Purple,Existing
+-95.368130781974074,29.80275294708969,19,North,Cavalcade,Fulton @ Cavalcade,CAVALCADE,Red,Existing
+-95.363866506526776,29.780771059246405,20,North,Quitman / Near Northside,North Main @ Quitman,QUITMAN / NEAR NORTHSIDE,Red,Existing
+-95.359279101187482,29.771816296625186,21,North,Burnett Transit Center / Casa De Amigos,North Main @ Burnett,BURNETT TRANSIT CENTER / CASA DE AMIGOS,Red,Existing
+-95.36071605352096,29.785791316823889,22,North,Fulton / North Central,Fulton @ Boundary,FULTON / NORTH CENTRAL,Red,Existing
+-95.366239434155005,29.761006354410977,23,Southeast,Theater District,Smith @ Capitol,THEATER DISTRICT,Green Purple,Existing
+-95.302899626668705,29.735878395605127,24,East End,Magnolia Park,Magnolia Transit Center,MAGNOLIA PARK,Green,Not In Oper.
+-95.363495408641256,29.758782471186038,25,Main-Fannin,Central Station / Main,Main @ Walker/Rusk,CENTRAL STATION / MAIN,Red,Existing
+-95.351966300483085,29.753553488331999,26,Southeast,Eado / Stadium,Texas @ Bastrop,EADO / STATIUM,Green Purple,Existing
+-95.30826938004175,29.737546412049674,27,East End,Cesar Chavez / 67th St,Harrisburg @ 67th,CEASAR CHAVEZ / 67TH ST,Green,Not In Oper.
+-95.358736594198973,29.765880301600639,28,Main-Fannin,UH-Downtown,Main @ UH-Downtown,UH-DOWNTOWN,Red,Existing
+-95.361337394435722,29.761514554014639,29,Main-Fannin,Preston,Main @ Preston,PRESTON,Red,Existing
+-95.365216065085946,29.756609759275022,30,Main-Fannin,Main Street Square,Main @ McKinney,MAIN STREET SQUARE,Red,Existing
+-95.367889705276156,29.753232177856638,31,Main-Fannin,Bell,Main @ Bell,BELL,Red,Existing
+-95.370259778274601,29.750235259407585,32,Main-Fannin,Downtown Transit Center,Main @ St Joseph,DOWNTOWN TRANSIT CENTER,Red,Existing
+-95.374087134146606,29.745407969765544,33,Main-Fannin,McGowen,Main @ McGowen,MCGOWEN,Red,Existing
+-95.379052162659079,29.739126622491941,34,Main-Fannin,Ensemble / HCC,Main @ Berry,ENSEMBLE / HCC,Red,Existing
+-95.383400948631746,29.732733574587069,35,Main-Fannin,Wheeler,Main @ Wheeler,WHEELER,Red,Existing
+-95.389096843506294,29.724745082831578,36,Main-Fannin,Museum District (SB),Fannin @ Binz,MUSEUM DISTRICT (SB),Red,Existing
+-95.388174783521933,29.72432790429939,37,Main-Fannin,Museum District (NB),San Jacinto @ Binz,MUSEUM DISTRICT (NB),Red,Existing
+-95.393581634003425,29.720030434015609,38,Main-Fannin,Hermann Park / Rice University,Fannin @  Sunset,HERMANN PARK / RICE UNIVERSITY,Red,Existing
+-95.397131177973876,29.714467133148528,39,Main-Fannin,Memorial Hermann Hospital / Houston Zoo,Fannin @ Cambridge,MEMORIAL HERMANN HOSPITAL / HOUSTON ZOO,Red,Existing
+-95.400889349682743,29.709723910034175,40,Main-Fannin,Dryden / TMC,Fannin @ Dryden,DRYDEN / TMC,Red,Existing
+-95.402906727083874,29.704127418105305,41,Main-Fannin,TMC Transit Center,Fannin @ Pressler,TMC TRANSIT CENTER,Red,Existing
+-95.404836847539798,29.696471843624476,42,Main-Fannin,Smith Lands,Greenbriar @ Colonnade,SMITH LANDS,Red,Existing
+-95.403379959857716,29.685934123653563,43,Main-Fannin,Reliant Park,Fannin @ Reliant Park,RELIANT PARK,Red,Existing
+-95.402836636079172,29.673591251243984,44,Main-Fannin,Fannin South,Fannin @ Bellfort,FANNIN SOUTH,Red,Existing
