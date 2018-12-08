@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<node>
+	<menu>
+		<name>Government</name>
+		<content>Data from the government</content>
+	</menu>
+	
+	<menu>
+		<name>Business</name>
+		<content>Data about business</content>
+	</menu>
+	
+	<menu>
+		<name>Education</name>
+		<content>Data about schools, education and others</content>
+	</menu>
+	
+	<menu>
+		<name>Safety</name>
+		<content>Data about public safety</content>
+	</menu>
+	
+	<menu>
+		<name>Health</name>
+		<content>Data about health</content>
+	</menu>
+	
+	<menu>
+		<name>Environment</name>
+		<content>Data about environment</content>
+	</menu>
+	
+	<menu>
+		<name>Transportation</name>
+		<content>Data about traffic</content>
+	</menu>
+	
+	<menu>
+		<name>Development</name>
+		<content>Data about development</content>
+	</menu>
+	
+	
+	
+</node>
