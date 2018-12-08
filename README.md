@@ -5,7 +5,7 @@ Data Portal website is a platform to help people get the data they wanted.
 
 We use php and xml to build the website.
 
-The website is simply and clear.
+The website is simple and clear.
 
 There is searching system on the webpage.
 
