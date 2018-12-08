@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <SCRIPT language="Javascript" type="text/javascript" src="css/dtreeck.js"></SCRIPT>
+    <SCRIPT language="Javascript" type="text/javascript" src="css/jquery.js"></SCRIPT>
+    <style type="text/css">
+        a:link {
+            font-size: 12px;
+            color: #0000FF;
+            text-decoration: none;
+        }
+        a:visited {
+            font-size: 12px;
+            color: #0000FF;
+            text-decoration: none;
+        }
+        a:hover {
+            font-size: 12px;
+            color: #CC6600;
+            text-decoration: none;
+        }
+        a:active {
+            font-size: 12px;
+            color: #006600;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<div style="height: 80px; width: 100%; background-color: #c7ddef">
+    <a href="frontpage.html"><img src="img/logo.png" height="80px" width="330px"></a>
+</div>
+
+
+<div style="position: relative; height: auto; width: 50%; margin-left: 600px; margin-right: auto; top: 25px;">
+    <img src="img/map.PNG">
+
+</div>
+
+<div style="height: auto; width: 300px; position: relative; top: -400px;">
+    <table width="100%" cellpadding="0" cellspacing="0">
+
+        <tr>
+            <td colspan="1" bgcolor="#FFFFFF" valign="top" width="35%" style="padding-left: 30px;">
+
+            </td>
+            <td bgcolor="#FFFFFF" valign="top" height="65%" align="left">
+                <form  method="post" id="regform">
+                    <table width="70%"   cellpadding="1" cellspacing="0" border="0" style="margin-top: 10px;">
+
+                        <tr>
+                            <td width="20%" align="right">choose</td>
+                            <td width="30%" align="left">
+                                <input type="text" id="menu_parent_name"   style="width: 150px;">
+                                <input type="hidden" id="menu_parent" name="menu_parent">
+                                <input type="hidden" id="oprate" name="oprate">
+                                <input type="hidden" id="menu_id" name="menu_id">
+                            </td>
+                            <td width="20%" align="right"></td>
+                            <td width="30%" align="left">
+
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <div id="treediv" style="display: none; overflow:scroll;  width: 150px;height:200px;  padding: 5px;background: #fff;color: #fff;border: 1px solid #cccccc"  >
+        <div align="right"><a href="##" id="closed"><font color="#000">&nbsp;</font></a></div>
+        <script language="JavaScript" type="text/JavaScript">
+            mydtree = new dTree('mydtree','imgmenu/','no','no');
+            mydtree.add(0,
+                    -1,
+                    "search details",
+                    "javascript:setvalue('0','search details')",
+                    "search details",
+                    "_self",
+                    false);
+
+            mydtree.add(37,
+                    0,
+                    'title 1',
+                    "javascript:setvalue('37','title 1')",
+                    'title 1',
+                    '_self',
+                    false);
+
+            mydtree.add(40,
+                    0,
+                    'title 2',
+                    "javascript:setvalue('40','title 2')",
+                    'title 2',
+                    '_self',
+                    false);
+
+
+
+            mydtree.add(2,
+                    1,
+                    'title 3',
+                    "javascript:setvalue('2','title 3')",
+                    'title 3',
+                    '_self',
+                    false);
+
+
+            mydtree.add(39,
+                    37,
+                    'sub-title 1',
+                    "javascript:setvalue('39','sub-title 1')",
+                    'sub-title 1',
+                    '_self',
+                    false);
+
+            mydtree.add(86,
+                    37,
+                    'sub-title 2',
+                    "javascript:setvalue('86','sub-title 2')",
+                    'sub-title 2',
+                    '_self',
+                    false);
+
+            mydtree.add(88,
+                    37,
+                    'sub-title 3',
+                    "javascript:setvalue('88','sub-title 3')",
+                    'sub-title 3',
+                    '_self',
+                    false);
+
+            mydtree.add(41,
+                    40,
+                    'sub-title 1',
+                    "javascript:setvalue('41','sub-title 1')",
+                    'sub-title 1',
+                    '_self',
+                    false);
+
+            mydtree.add(42,
+                    40,
+                    'sub-title 2',
+                    "javascript:setvalue('42','sub-title 2')",
+                    'sub-title 2',
+                    '_self',
+                    false);
+
+
+
+
+            document.write(mydtree);
+
+        </script>
+    </div><script type="text/javascript">
+
+    xOffset = 0;
+    yOffset = 25;
+
+    var toshow = "treediv";
+    var target = "menu_parent_name";
+
+
+    $("#"+target).click(function (){
+        $("#"+toshow)
+                .css("position", "absolute")
+                .css("left", $("#"+target).position().left+xOffset + "px")
+                .css("top", $("#"+target).position().top+yOffset +"px").show();
+    });
+
+    $("#closed").click(function(){
+        $("#"+toshow).hide();
+    });
+
+    function   checkIn(id){
+        var yy = 20;
+        var str = "";
+        var   x=window.event.clientX;
+        var   y=window.event.clientY;
+        var   obj=$("#"+id)[0];
+        if(x>obj.offsetLeft&&x<(obj.offsetLeft+obj.clientWidth)&&y>(obj.offsetTop-yy)&&y<(obj.offsetTop+obj.clientHeight)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    $(document).click(function(){
+        var is = checkIn("treediv");
+        if(!is){
+            $("#"+toshow).hide();
+        }
+    });
+    function setvalue(id,name){
+        $("#menu_parent_name").val(name);
+        $("#menu_parent").val(id);
+        $("#treediv").hide();
+    }
+
+</script>
+
+    <div class="container_odd" style="position: relative; top: -60px; left:-20px">
+        <div class="set_container"> <a href="data.html" class="set_1_btn Vbtn-1"> <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+        </svg> search </a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src='js/jquery.js'></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
