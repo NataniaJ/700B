@@ -9,6 +9,6 @@ The website is simply and clear.
 
 There is searching system on the webpage.
 
-If you find the right files, you can download it. 
+If you find the right files, you can download them. 
 
 It's easy to follow the step to get the resources.
